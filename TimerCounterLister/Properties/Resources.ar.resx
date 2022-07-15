@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_CannotTimerCounteralarmAddIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن اضافة انذار عداد: كلمة سر خاطئة</value>
+  </data>
+  <data name="CMI_Name_PauseAllTimerCounters" xml:space="preserve">
+    <value>توقيف كل العدادات</value>
+  </data>
+  <data name="Error_CannotOpenProfileIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن فتخ ملف شخصي: كلمة سر خاطئة</value>
+  </data>
+  <data name="Filter_Text" xml:space="preserve">
+    <value>ملف نصي (*.txt)|*.txt</value>
+  </data>
+  <data name="TimerEvent_AlarmAdd" xml:space="preserve">
+    <value>اضافة انذار</value>
+  </data>
+  <data name="Status_StartingNewProfile" xml:space="preserve">
+    <value>يتم بدء الملف الشخصي</value>
+  </data>
+  <data name="TimerEventDesc_TimerResume" xml:space="preserve">
+    <value>تم تشغيل العداد بعد ايقاف</value>
+  </data>
+  <data name="TimerEvent_AlarmRemove" xml:space="preserve">
+    <value>حذف انذار</value>
+  </data>
+  <data name="Message_SelectedTimerCounterAlreadyRunning" xml:space="preserve">
+    <value>العداد المختار قيد التشعيل !!</value>
+  </data>
+  <data name="Error_InomplatibleTCLFileVersion" xml:space="preserve">
+    <value>رقم نسخة للملف غير متوافق</value>
+  </data>
+  <data name="MessageCaption_SaveChanges" xml:space="preserve">
+    <value>حفظ التغيرات</value>
+  </data>
+  <data name="TimerEvent_Pay" xml:space="preserve">
+    <value>علمية حسابية</value>
+  </data>
+  <data name="CMI_Name_AddTimerCounterAlarm" xml:space="preserve">
+    <value>اضافة انذار للعداد المختار</value>
+  </data>
+  <data name="CMI_Name_EditProfileDetails" xml:space="preserve">
+    <value>اعادادت المل&amp;ف الشخصي</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="page_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comments_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerPauseBecauseOfTimer" xml:space="preserve">
+    <value>تم ايقاف العداد بسبب انذار, تم ضبط الانذار لايقاف العداد عند الانذار</value>
+  </data>
+  <data name="application_view_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_view_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterProfilePathFirst" xml:space="preserve">
+    <value>الرجاء تحديد مسار ملف الملف الشخصي</value>
+  </data>
+  <data name="CMI_Tooltip_TimerCounterPay" xml:space="preserve">
+    <value>اجراء عملية حسابية للعداد المختار لتسوية الصرف</value>
+  </data>
+  <data name="Status_NewProfileStartedSuccessfully" xml:space="preserve">
+    <value>تم بدء ملف شخصي جديد بنجاح</value>
+  </data>
+  <data name="TimerEvent_TimerPause" xml:space="preserve">
+    <value>ايقاف عداد</value>
+  </data>
+  <data name="Error_SavingMethodSetToNone" xml:space="preserve">
+    <value>طريقة الحفظ موضوع للاشيء</value>
+  </data>
+  <data name="TC_Name_TimerCounters" xml:space="preserve">
+    <value>العادادت</value>
+  </data>
+  <data name="page_white_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_TimerCounterBalanceTransaction" xml:space="preserve">
+    <value>اجراء عملية حسابية للرصيد للعداد المختار كسحب او اضافة</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_FileSizeIsLessThanExpected" xml:space="preserve">
+    <value>حجم الملف اصغر مما هو متوقع</value>
+  </data>
+  <data name="Word_CopyrightMessage" xml:space="preserve">
+    <value>هذا البرنامج هو برمجية حرة: يمكنك إطعادة توزيعه و/أو تعديله بموجب أحكام "رخصة غنو لعامة الشعب" ُ كما نشرت من قبل "مؤسسة البرمجيات الحرة"، إما الاصدار 3 من "الرخصة" أو، (باختيارك ّ ) أي إلصدار لاحق.
+يتم توزيع هذا البرنامج على أمل أن يكون مفيد ًا، ولكنه بدون أية كفالة؛ بدون حتى الكفالة الضمنية الخا ّلصة بالترويج أو الملائمة لغرض معين. انظر "رخصة غنو لعامة الشعب" لمزيد من التفالصيل.
+من الواجب أن تكون قد تلقيت نسخة من "رخصة غنو لعامة الشعب" مع هذا البرنامج. إذا لم يكن المر كذلك، انظر &lt;http://www.gnu.org/licenses/&gt;.</value>
+  </data>
+  <data name="CMI_Name_ResetTimerCounterAlarm" xml:space="preserve">
+    <value>اعادة ضبط الانذار المختار</value>
+  </data>
+  <data name="Title_EnterProfilePassword" xml:space="preserve">
+    <value>الرجاء ادخال كلمة سر الملف الشخصي</value>
+  </data>
+  <data name="arrow_rotate_clockwise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_rotate_clockwise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_AlarmRemove" xml:space="preserve">
+    <value>ازالة انذار</value>
+  </data>
+  <data name="CMI_Name_ResumeTimerCounterWithDifference" xml:space="preserve">
+    <value>تشغيل العداد المختار مع اضافة الوقت الضائع</value>
+  </data>
+  <data name="timeline_marker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timeline_marker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_PauseTimerCounter" xml:space="preserve">
+    <value>توقيف العداد المختار</value>
+  </data>
+  <data name="MIR_Name_TimerCounterControls" xml:space="preserve">
+    <value>تحكمات عدادات</value>
+  </data>
+  <data name="Error_CannotRemoveSelectedTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن حذف العداد المختار: كلمة سر خاطئة</value>
+  </data>
+  <data name="Message_PasswordHasBeenChangedSuccessfully" xml:space="preserve">
+    <value>تم تغيير كلمة السر بنجاح</value>
+  </data>
+  <data name="TimerEvent_AlarmReset" xml:space="preserve">
+    <value>اعادة ضبط انذار</value>
+  </data>
+  <data name="Error_CannotOpenProfilePathIsEmpty" xml:space="preserve">
+    <value>لا يمكن فتح ملف شخصي: مسار ملف خالي</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="film_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_PerMinute" xml:space="preserve">
+    <value>كل دقيقة</value>
+  </data>
+  <data name="Error_CannotAddNewTimerIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن اضافة عداد جديد: كلمة سر خاطئة</value>
+  </data>
+  <data name="CMI_Tooltip_OpenProfile" xml:space="preserve">
+    <value>فتح ملف شخصي من ملف على الجهاز</value>
+  </data>
+  <data name="TimerEventDesc_AlarmReset" xml:space="preserve">
+    <value>اعادة ضبط انذار</value>
+  </data>
+  <data name="Message_AlarmTrigger" xml:space="preserve">
+    <value>انذار !!</value>
+  </data>
+  <data name="Message_CannotCloseAppProfileNotSaved" xml:space="preserve">
+    <value>لا يمكن اعلاق البرنامج, الملف الشخصي لم يتم حفظه</value>
+  </data>
+  <data name="Status_CannotExecuteCommandNewProfile0" xml:space="preserve">
+    <value>لا يمكن تنفيذ امر ملف شخصي جديد. الملف الشخصي الحالي غير محفوظ</value>
+  </data>
+  <data name="Error_UnableToOpenProfileFile" xml:space="preserve">
+    <value>لا يمكن فتح ملف شخصي</value>
+  </data>
+  <data name="Message_CannotResumeWithAddNotAllowed" xml:space="preserve">
+    <value>هذه الميزة مقفلة للعداد المختار, لا يسمح بالتشغيل مع اضافة الوقت الضائع</value>
+  </data>
+  <data name="CMI_Name_ExportTimerCounterEventsText" xml:space="preserve">
+    <value>تصدير قائمة الاحداث للعداد المختار الى ملف نصي</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterAlarmTime" xml:space="preserve">
+    <value>الرجاء ادخال الوقت للانذار للعداد</value>
+  </data>
+  <data name="Word_AlaaIbrahimHadid" xml:space="preserve">
+    <value>علاء ابراهيم حديد</value>
+  </data>
+  <data name="table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_RemoveSelectedTimerCounter" xml:space="preserve">
+    <value>ازالة العداد المختار من الملف الشخصي</value>
+  </data>
+  <data name="Error_OpenProfileCanceled" xml:space="preserve">
+    <value>لا يمكن فتح ملف شخصي: تم الغاء عملية فتح الملف الشخصي</value>
+  </data>
+  <data name="Title_PleaseEnterNEWPassword" xml:space="preserve">
+    <value>الرجاء ادخال كلمة السر الجديدة</value>
+  </data>
+  <data name="MessageCaption_ChangePassword" xml:space="preserve">
+    <value>تغيير كلمة السر</value>
+  </data>
+  <data name="Word_Copyright" xml:space="preserve">
+    <value>حقوق النشر محفوظة</value>
+  </data>
+  <data name="Error_InomplatibleTCLProfileVersion" xml:space="preserve">
+    <value>رقم نسخة للملف الشخصي غير متوافق</value>
+  </data>
+  <data name="MIR_Name_TimerCounters" xml:space="preserve">
+    <value>العدادات</value>
+  </data>
+  <data name="TimerEvent_TimerResume" xml:space="preserve">
+    <value>تشغيل عداد</value>
+  </data>
+  <data name="CMI_Name_SaveProfileAs" xml:space="preserve">
+    <value>حفظ الملف الشخصي باسم</value>
+  </data>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_SaveProfile" xml:space="preserve">
+    <value>&amp;حفظ الملف الشخصي</value>
+  </data>
+  <data name="TimerEvent_TimerAdd" xml:space="preserve">
+    <value>اضافة عداد</value>
+  </data>
+  <data name="TimerEventDesc_TimerStart" xml:space="preserve">
+    <value>بدء العداد</value>
+  </data>
+  <data name="Error_CannotTimerCounterAlarmRemoveIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن حذف انذار عداد: كلمة سر خاطئة</value>
+  </data>
+  <data name="CMI_Tooltip_StartResumeTimerCounter" xml:space="preserve">
+    <value>تشغيل العداد المختار (من حيث ما توقف)</value>
+  </data>
+  <data name="CMI_Name_StartResumeAllTimerCounters" xml:space="preserve">
+    <value>تشغيل كل العدادات</value>
+  </data>
+  <data name="comment_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMI_Name_RecentProfiles" xml:space="preserve">
+    <value>الملفات الشخصية &amp;سابقة</value>
+  </data>
+  <data name="CMI_Tooltip_RemoveTimerCounterAlarm" xml:space="preserve">
+    <value>ازالة الانذار المختار من العداد المختار</value>
+  </data>
+  <data name="MessageCaption_AddTimerCounterAlarm" xml:space="preserve">
+    <value>اضافة انذار عداد</value>
+  </data>
+  <data name="Error_UnableToSaveProfile" xml:space="preserve">
+    <value>لا يمكن حفظ الملف الشخصي</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Hours" xml:space="preserve">
+    <value>ساعة</value>
+  </data>
+  <data name="CMI_Name_NewTimerCounter" xml:space="preserve">
+    <value>&amp;عداد جديد</value>
+  </data>
+  <data name="Message_CannotRemoveAlarmPleaseSelectAlarm" xml:space="preserve">
+    <value>لا يمكن ازالة الانذار: الرجاء اختيار الانذار اولا</value>
+  </data>
+  <data name="Message_TimerCounterNeedToBePausedFirst" xml:space="preserve">
+    <value>العداد يجب ان يكون واقفا اولا</value>
+  </data>
+  <data name="Word_CostAfterEvent" xml:space="preserve">
+    <value>التكلفة بعد الحدث</value>
+  </data>
+  <data name="Message_CannotCloseAppTimersStillRunning" xml:space="preserve">
+    <value>هناك عداد او اكثر مازال قيد التشغيل. الرجاء ايقاف كل العدادات حتى يمكن اغلاق البرنامج</value>
+  </data>
+  <data name="CMI_Tooltip_SaveProfileAs" xml:space="preserve">
+    <value>حفظ الملف الشخصي الى ملف وجعل المسار الجديد للملف المحفوظ كمسار للملف الشخصي</value>
+  </data>
+  <data name="CMI_Name_StartResumeTimerCounter" xml:space="preserve">
+    <value>تشغيل العداد المختار</value>
+  </data>
+  <data name="Word_Seconds" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="TC_Name_ProfileDetails" xml:space="preserve">
+    <value>تفاصيل الملف الشخصي</value>
+  </data>
+  <data name="Message_AreYouSureToRemoveTimerCounter" xml:space="preserve">
+    <value>هل انت واثق من حذف العداد المختار _ هذه العملية لا يمكن التراجع عنها</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterNameFirst" xml:space="preserve">
+    <value>الرجاء ادخال اسم العداد</value>
+  </data>
+  <data name="Error_CannotEditProfileDetailsIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن تغيير اعدادات الملف الشخصي: كلمة سر خاطئة</value>
+  </data>
+  <data name="comments_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerDesc" xml:space="preserve">
+    <value>تم ضبط الانذار لينذر بعد</value>
+  </data>
+  <data name="CMI_Name_NewProfile" xml:space="preserve">
+    <value>&amp;New Profile</value>
+  </data>
+  <data name="Title_PleaseEnterCURRENTPassword" xml:space="preserve">
+    <value>الرجاء ادخال كلمة السر الحالية</value>
+  </data>
+  <data name="Word_Alarm" xml:space="preserve">
+    <value>انذار</value>
+  </data>
+  <data name="CMI_Tooltip_ResumeTimerCounterWithDifference" xml:space="preserve">
+    <value>تشغيل العداد المختار مع اضافة الوقت الضائع من اخر ايقاف</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>ال&amp;غاء الامر</value>
+  </data>
+  <data name="Word_AlarmName" xml:space="preserve">
+    <value>اسم الانذار</value>
+  </data>
+  <data name="Status_ProfileSavedSuccessfully" xml:space="preserve">
+    <value>تم حفظ ملف شخصي بنحاح</value>
+  </data>
+  <data name="CMI_Name_TimerCounterBalanceTransaction" xml:space="preserve">
+    <value>اجراء عملية حسابية للرصيد للعداد المختار</value>
+  </data>
+  <data name="CMI_Name_RemoveSelectedTimerCounter" xml:space="preserve">
+    <value>ا&amp;زالة العداد المختار</value>
+  </data>
+  <data name="Word_TimePassed" xml:space="preserve">
+    <value>وقت مضى</value>
+  </data>
+  <data name="Status_ProfileOpenedSuccessfully" xml:space="preserve">
+    <value>تم فتح ملف شخصي بنجاح</value>
+  </data>
+  <data name="CMI_Tooltip_NewProfile" xml:space="preserve">
+    <value>بدء ملف شخصي يمكنه ان يضم كافة العدادت و البيانات المتعلقة بها</value>
+  </data>
+  <data name="Title_SaveProfile" xml:space="preserve">
+    <value>حفظ الملف الشخصي</value>
+  </data>
+  <data name="Error_CannotSaveProfileIncorrectPassword" xml:space="preserve">
+    <value>لا مكن حفظ الملف الشخصي: الملف الشخصي محمي بكلمة سر و كلمة السر خاطئة</value>
+  </data>
+  <data name="Message_EnteredNameAlreadyTakenByAnotherTimer" xml:space="preserve">
+    <value>اسم العداد المدخل ماخوذ من عداد اخر</value>
+  </data>
+  <data name="Message_TimersNeedToPauseToMakeNewProfile" xml:space="preserve">
+    <value>لا يمكن بدء ملف شخصي جديد, هناك عداد او اكثر قيد التشغيل في الملف الشخصي الحالي</value>
+  </data>
+  <data name="Word_Minutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="Error_NewProfileStartCanceled" xml:space="preserve">
+    <value>تم الغاء عملية بدء ملف شخصي</value>
+  </data>
+  <data name="money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotTimerCounterPayIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن اجراء عملية حسابية للعداد المختار: كلمة سر خاطئة</value>
+  </data>
+  <data name="time_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotDoTimerCounterBalanceTransactionIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن اجراء عملية حسابية للرصيد للعداد المختار: كلمة سر خاطئة</value>
+  </data>
+  <data name="TimerEvent_TimerStart" xml:space="preserve">
+    <value>بدء عداد</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_RemoveTimerCounterAlarm" xml:space="preserve">
+    <value>ازالة الانذار المختار من العداد المختار</value>
+  </data>
+  <data name="CMI_Tooltip_ResetTimerCounterAlarm" xml:space="preserve">
+    <value>اعادة ضبط الانذار المختار من العداد المختار</value>
+  </data>
+  <data name="Message_IncorrectPassword" xml:space="preserve">
+    <value>كلمة سر خاطئة</value>
+  </data>
+  <data name="Error_CannotSaveProfileItHasCanceledInternally" xml:space="preserve">
+    <value>لا يمكن حفظ الملف الشخصي: تم الغاء عملية الحفظ بشكل داخلي</value>
+  </data>
+  <data name="Error_CannotAddNewTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن اضافة عداد جديد: كلمة سر خاطئة</value>
+  </data>
+  <data name="Error_FileIsNotTCLFile" xml:space="preserve">
+    <value>الملف ليس بملف شخصي للبرنامج</value>
+  </data>
+  <data name="Message_NoProfileLoaded" xml:space="preserve">
+    <value>لا يوجد ملف شخصي مفتوح. الرجاء بدء ملف شخصي جديد او فتح ملف شخصي محفوظ على الجهاز</value>
+  </data>
+  <data name="CMI_Tooltip_ExportTimerCounterEventsText" xml:space="preserve">
+    <value>تصدير قائمة الاحداث للعداد المختار الى ملف نصي</value>
+  </data>
+  <data name="Word_CurrencyAfterEvent" xml:space="preserve">
+    <value>العملة بعد الحدث</value>
+  </data>
+  <data name="Word_Triggered" xml:space="preserve">
+    <value>انذر</value>
+  </data>
+  <data name="Message_PleaseEnterProfileNameFirst" xml:space="preserve">
+    <value>الرجاء ادخال اسم الملف الشخصي اولا</value>
+  </data>
+  <data name="Title_Untitled" xml:space="preserve">
+    <value>غير معنون</value>
+  </data>
+  <data name="comment_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_TimerCounterResumeWithDifference" xml:space="preserve">
+    <value>تشغيل عداد مع اضافة الوقت الضائع</value>
+  </data>
+  <data name="comment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_AlarmTrigger" xml:space="preserve">
+    <value>انذار</value>
+  </data>
+  <data name="CMI_Tooltip_StartResumeAllTimerCounters" xml:space="preserve">
+    <value>تشغيل كافة العدادات الموجودة في الملف الشخصي</value>
+  </data>
+  <data name="TC_Name_TimerCounterEvents" xml:space="preserve">
+    <value>أحداث العداد</value>
+  </data>
+  <data name="TC_Name_Alarms" xml:space="preserve">
+    <value>انذارات العداد</value>
+  </data>
+  <data name="CMI_Tooltip_SaveProfile" xml:space="preserve">
+    <value>حفظ كل تغييرات الملف الشخصي</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>&amp;لا تحفظ</value>
+  </data>
+  <data name="Message_CannotCloseAppProfileIsPasswordProtectedWrongPassworf" xml:space="preserve">
+    <value>لا يمكن اعلاق البرنامج, الملف الشخصي يتطلب كلمة سر عند الاغلاق و كلمة السر المدخلة خاطئة</value>
+  </data>
+  <data name="comments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotOpenProfilePathNotExist" xml:space="preserve">
+    <value>لا يمكن فتح ملف شخصي: مسار الملف غير موجود</value>
+  </data>
+  <data name="MessageCaption_RemoveTimerCounter" xml:space="preserve">
+    <value>ازالة العداد المختار</value>
+  </data>
+  <data name="Error_CannotPauseTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>لا يمكن ايقاف العداد المختار: كلمة سر خاطئة</value>
+  </data>
+  <data name="control_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterCurrencyFirst" xml:space="preserve">
+    <value>الرجاء ادخال العملة اولا</value>
+  </data>
+  <data name="TimerEventDesc_TimerAdd" xml:space="preserve">
+    <value>تم اضافة عداد الى الملف الشخصي</value>
+  </data>
+  <data name="CMI_Name_TimerCounterPay" xml:space="preserve">
+    <value>اجراء عملية حسابية للعداد المختار</value>
+  </data>
+  <data name="film" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_BalanceAfterEvent" xml:space="preserve">
+    <value>الرصيد بعد الحدث</value>
+  </data>
+  <data name="control_pause_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_pause_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_OpenProfile" xml:space="preserve">
+    <value>&amp;فتح ملف شخصي</value>
+  </data>
+  <data name="Error_SaveProfileCanceled" xml:space="preserve">
+    <value>تم الغاء عملية حفظ الملف الشخصي</value>
+  </data>
+  <data name="TimerDescDesc_ExportEventsIntoExcel" xml:space="preserve">
+    <value>تم حفظ الاحداث الى ملف ايكسل</value>
+  </data>
+  <data name="door_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_EditProfileDetails" xml:space="preserve">
+    <value>تغيير اعدادات الملف الشخصي كاسم الملف الشخصي و كلمة السر</value>
+  </data>
+  <data name="TimerEventDesc_TimerPause" xml:space="preserve">
+    <value>تم توقف العداد</value>
+  </data>
+  <data name="Message_UnableToChangePasswordNotConfimed" xml:space="preserve">
+    <value>لا يمكن تغيير كلمة السر, كلمة السر غير مطابقة</value>
+  </data>
+  <data name="Title_OpenProfile" xml:space="preserve">
+    <value>فتح ملف شخصي</value>
+  </data>
+  <data name="CMI_Tooltip_PauseTimerCounter" xml:space="preserve">
+    <value>وقف العداد المختار</value>
+  </data>
+  <data name="Word_Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="MessageCaption_AlarmTrigger" xml:space="preserve">
+    <value>انذار</value>
+  </data>
+  <data name="Filter_TCLP" xml:space="preserve">
+    <value>Timer Counter Lister ملف شخصي (*.tclp)|*.tclp</value>
+  </data>
+  <data name="CMI_Tooltip_AddTimerCounterAlarm" xml:space="preserve">
+    <value>اضافة انذار للعداد المختار</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProfileFirst" xml:space="preserve">
+    <value>هل تريد حفظ التغيرات للملف الشخصي اولا ؟</value>
+  </data>
+  <data name="TimerEvent_BalanceTransaction" xml:space="preserve">
+    <value>عملية حسابية للرصيد</value>
+  </data>
+  <data name="time_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_ExportEventsIntoExcel" xml:space="preserve">
+    <value>حفظ احداث عداد الى ملف ايكسل</value>
+  </data>
+  <data name="comment_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerResumeWithDifference" xml:space="preserve">
+    <value>تم تشغيل العداد بعض اضافة الوقت الضائع</value>
+  </data>
+  <data name="Message_EnteredNameAlreadyTakenByAnotherTimerAlarm" xml:space="preserve">
+    <value>اسم انذار العداد ماخوذ من انذار اخر للعداد المختار</value>
+  </data>
+  <data name="CMI_Tooltip_PauseAllTimerCounters" xml:space="preserve">
+    <value>وقف كل العدادات التي في قيد التشغيل</value>
+  </data>
+  <data name="TimerEvent_ExportEventsIntoText" xml:space="preserve">
+    <value>حفظ احداث عداد الى ملف نصي</value>
+  </data>
+  <data name="Message_SelectedTimerCounterAlreadyPaused" xml:space="preserve">
+    <value>العداد المختار موقف سابقا !!</value>
+  </data>
+  <data name="Message_PleaseSelectTimerCounter" xml:space="preserve">
+    <value>الرجاء اختيار العداد من القائمة</value>
+  </data>
+  <data name="control_play_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Days" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="MIR_Name_Profiles" xml:space="preserve">
+    <value>ملفات شخصية</value>
+  </data>
+  <data name="CMI_Tooltip_NewTimerCounter" xml:space="preserve">
+    <value>اضافة عداد جديد للملف الشخصي</value>
+  </data>
+  <data name="Error_UnableToOpenProfileUnknownReason" xml:space="preserve">
+    <value>لا يمكن فتح الملف الشخصي: خطأ غير معروف, الرجاء فتح الملف "Documents\Timer Counter Lister" للمزيد من التفاصيل</value>
+  </data>
+  <data name="Title_PleaseEnterNEWPasswordAgainToConfirm" xml:space="preserve">
+    <value>الرجاء ادخال كلمة السر الجديدة مرة اخرى للتاكيد</value>
+  </data>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterAlarmNameFirst" xml:space="preserve">
+    <value>الرجاء ادخال اسم الانذار لعداد</value>
+  </data>
+  <data name="Message_CannotResetAlarmPleaseSelectAlarm" xml:space="preserve">
+    <value>لا يمكن اعادة ضبط الانذار: الرجاء اختيار الانذار اولا</value>
+  </data>
+  <data name="Word_No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="MessageCaption_AddTimerCounter" xml:space="preserve">
+    <value>اضافة عداد</value>
+  </data>
+  <data name="TC_Name_TimerCounterStatus" xml:space="preserve">
+    <value>حالة العداد المختار</value>
+  </data>
+  <data name="Word_AlarmDescription" xml:space="preserve">
+    <value>تفاصيل الانذار</value>
+  </data>
+  <data name="Message_NoTimerCounterInProfile" xml:space="preserve">
+    <value>لا يوجد اي عداد في الملف الشخصي</value>
+  </data>
+  <data name="TimerEventDesc_ExportEventsIntoText" xml:space="preserve">
+    <value>تم حفظ الاحداث الى ملف نصي</value>
+  </data>
+  <data name="control_stop_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_stop_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="money_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Milliseconds" xml:space="preserve">
+    <value>ميلي ثانية</value>
+  </data>
+  <data name="pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pencil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterProfilePasswordFirst" xml:space="preserve">
+    <value>الرجاء ادخال كلمة السر اولا, او الغاء حماية الملف الشخصي بكلمة سر</value>
+  </data>
+  <data name="Word_TimerCounter" xml:space="preserve">
+    <value>عداد</value>
+  </data>
+  <data name="Title_ExportTimerCounterEventsIntoText" xml:space="preserve">
+    <value>تصيدر احداث العداد المختار الى ملف نصي</value>
+  </data>
+  <data name="Message_TimersNeedToPauseToOpenProfile" xml:space="preserve">
+    <value>لا يمكن فتح ملف شخصي, هناك عداد او اكثر قيد التشغيل في الملف الشخصي الحالي</value>
+  </data>
+  <data name="time_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page_white_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white_excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_ExportTimerCounterEventsExcel" xml:space="preserve">
+    <value>تصدير قائمة الاحداث للعداد المختار الى ملف ايكسل</value>
+  </data>
+  <data name="CMI_Tooltip_ExportTimerCounterEventsExcel" xml:space="preserve">
+    <value>تصدير قائمة الاحداث للعداد المختار الى ملف ايكسل</value>
+  </data>
+  <data name="Balance_Details0" xml:space="preserve">
+    <value>سحب من الرصيد</value>
+  </data>
+  <data name="Balance_Details1" xml:space="preserve">
+    <value>الباقي في الرصيد</value>
+  </data>
+  <data name="Balance_Details2" xml:space="preserve">
+    <value>تم اضافته الى الرصيد</value>
+  </data>
+  <data name="Balance_Details3" xml:space="preserve">
+    <value>هو الرصيد الجديد</value>
+  </data>
+  <data name="Balance_Details4" xml:space="preserve">
+    <value>لم يتم اي عملية حسابية على الرصيد</value>
+  </data>
+  <data name="Pay_Details0" xml:space="preserve">
+    <value>دفع من الرصيد</value>
+  </data>
+  <data name="Pay_Details1" xml:space="preserve">
+    <value>تم دفعه بطريقة الادخال</value>
+  </data>
+  <data name="Word_DateOfEvent" xml:space="preserve">
+    <value>تاريخ الحدث</value>
+  </data>
+  <data name="Word_EventDescription" xml:space="preserve">
+    <value>وصف الحدث</value>
+  </data>
+  <data name="Word_EventName" xml:space="preserve">
+    <value>اسم الحدث</value>
+  </data>
+  <data name="Word_Events" xml:space="preserve">
+    <value>الاحداث</value>
+  </data>
+  <data name="Word_AboutDetails" xml:space="preserve">
+    <value>Timer Counter Lister
+برنامج يقوم بادارة و تنظيم عدادات
+
+جميع الحقوق محفوظة © علاء ابراهيم حديد 2021
+
+هذا البرنامج مبني باستخدام مكتبة ManagedUI, الرجاء متابعة &lt;https://github.com/alaahadid/Managed-UI&gt; للمزيد من التفاصيل.
+
+النسخ:
+-------
+هذا البرنامج هو برمجية حرة: يمكنك إطعادة توزيعه و/أو تعديله بموجب أحكام "رخصة غنو لعامة الشعب" ُ كما نشرت من قبل "مؤسسة البرمجيات الحرة"، إما الاصدار 3 من "الرخصة" أو، (باختيارك ّ ) أي إلصدار لاحق.
+يتم توزيع هذا البرنامج على أمل أن يكون مفيد ًا، ولكنه بدون أية كفالة؛ بدون حتى الكفالة الضمنية الخا ّلصة بالترويج أو الملائمة لغرض معين. انظر "رخصة غنو لعامة الشعب" لمزيد من التفالصيل.
+من الواجب أن تكون قد تلقيت نسخة من "رخصة غنو لعامة الشعب" مع هذا البرنامج. إذا لم يكن المر كذلك، انظر &lt;http://www.gnu.org/licenses/&gt;.
+
+ايميل: mailto:alaahadidfreeware@gmail.com
+
+البرنامج يستخدم مكتبة ClosedXML التي هي مرخصة تحت رخصة MIT License
+
+MIT License
+
+Copyright (c) 2016 ClosedXML
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</value>
+  </data>
+  <data name="Word_Version" xml:space="preserve">
+    <value>النسخة</value>
+  </data>
+  <data name="Word_WrittenBy" xml:space="preserve">
+    <value>المؤلف و المطور و المبرمج</value>
+  </data>
+  <data name="CMI_Name_ShowAbout" xml:space="preserve">
+    <value>&amp;حول البرنامج</value>
+  </data>
+  <data name="CMI_Tooltip_ShowAbout" xml:space="preserve">
+    <value>فتح نافذة حول البرنامج مع تفاصيل حول البرنامج</value>
+  </data>
+  <data name="properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\properties.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerCounterLister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimerCounterLister.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_ShowWebsite" xml:space="preserve">
+    <value>الموقع على الانترنت (github)</value>
+  </data>
+  <data name="CMI_Name_ShowWiki" xml:space="preserve">
+    <value>مساعدة اونلاين ويكي</value>
+  </data>
+  <data name="CMI_Tooltip_ShowWebsite" xml:space="preserve">
+    <value>الذهاب الى موقع البرنامج على الانترنت: https://github.com/alaahadid/Timer-Counter-Lister/</value>
+  </data>
+  <data name="CMI_Tooltip_ShowWiki" xml:space="preserve">
+    <value>الذهاب الى صفحة الويكي للاطلاع على اخر معلومات المساعدة المتعلقة بالبرنامج: https://github.com/alaahadid/Timer-Counter-Lister/wiki</value>
+  </data>
+  <data name="Word_ClockRate" xml:space="preserve">
+    <value>الفاصل الزمني للمؤقت</value>
+  </data>
+  <data name="CMI_Name_Donate" xml:space="preserve">
+    <value>التبرع</value>
+  </data>
+  <data name="CMI_Tooltip_Donate" xml:space="preserve">
+    <value>تبرع الان لدعم تطوير البرنامج عن طريق الباي بال</value>
+  </data>
+</root>

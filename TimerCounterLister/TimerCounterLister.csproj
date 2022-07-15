@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81064FC1-5C1E-4491-96C9-657D544EAB7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TimerCounterLister</RootNamespace>
+    <AssemblyName>TimerCounterLister</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Builds\Releasex86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TimerCounterLister.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net40\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\CancableEventArgs.cs" />
+    <Compile Include="Args\EnterNameFormOkPressedArgs.cs" />
+    <Compile Include="Args\TimerCounterAlarmTriggerEventArgs.cs" />
+    <Compile Include="Commands\OpenWebsite.cs" />
+    <Compile Include="Commands\OpenWikiPage.cs" />
+    <Compile Include="Commands\Profile\CheckCanCloseProfile.cs" />
+    <Compile Include="Commands\Profile\CheckForPasswordCommand.cs" />
+    <Compile Include="Commands\Profile\CheckForSaveCommand.cs" />
+    <Compile Include="Commands\Profile\EditProfileDetailsCommand.cs" />
+    <Compile Include="Commands\Profile\NewProfileCommand.cs" />
+    <Compile Include="Commands\Profile\OpenProfileAsCommand.cs" />
+    <Compile Include="Commands\Profile\OpenProfileCommand.cs" />
+    <Compile Include="Commands\Profile\SaveProfileAsCommand.cs" />
+    <Compile Include="Commands\Profile\SaveProfileCommand.cs" />
+    <Compile Include="Commands\ShowAboutCommand.cs" />
+    <Compile Include="Commands\ShowGettingStartedCommand.cs" />
+    <Compile Include="Commands\TimerCounterAlarms\AddNewAlarm.cs" />
+    <Compile Include="Commands\TimerCounterAlarms\RemoveSelectedAlarm.cs" />
+    <Compile Include="Commands\TimerCounterAlarms\ResetAlarm.cs" />
+    <Compile Include="Commands\TimerCounterControls\PauseAllTimers.cs" />
+    <Compile Include="Commands\TimerCounterControls\PauseTimerCounterCommand.cs" />
+    <Compile Include="Commands\TimerCounterControls\ResumeAfterAPauseAndAddDifferenceTime.cs" />
+    <Compile Include="Commands\TimerCounterControls\StartResumeAllTimersCommand.cs" />
+    <Compile Include="Commands\TimerCounterControls\StartResumeTimerCounterCommand.cs" />
+    <Compile Include="Commands\TimerCounter\AddNewTimerCounterCommand.cs" />
+    <Compile Include="Commands\TimerCounter\ExportEventsIntoExcelFile.cs" />
+    <Compile Include="Commands\TimerCounter\ExportEventsIntoTextFileCommand.cs" />
+    <Compile Include="Commands\TimerCounter\RemoveSelectedTimerCounterCommand.cs" />
+    <Compile Include="Commands\TimerCounter\TimerCounterBalanceTransaction.cs" />
+    <Compile Include="Commands\TimerCounter\TimerCounterPayCommand.cs" />
+    <Compile Include="Forms\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAlarmTrigger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAlarmTrigger.Designer.cs">
+      <DependentUpon>FormAlarmTrigger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddNewTimerCounterAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddNewTimerCounterAlarm.Designer.cs">
+      <DependentUpon>FormAddNewTimerCounterAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBalanceTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBalanceTransaction.Designer.cs">
+      <DependentUpon>FormBalanceTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddTimerCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddTimerCounter.Designer.cs">
+      <DependentUpon>FormAddTimerCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGettingStarted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGettingStarted.Designer.cs">
+      <DependentUpon>FormGettingStarted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEditProfileDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEditProfileDetails.Designer.cs">
+      <DependentUpon>FormEditProfileDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEnterName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEnterName.Designer.cs">
+      <DependentUpon>FormEnterName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNewProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNewProfile.Designer.cs">
+      <DependentUpon>FormNewProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTimerCounterPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTimerCounterPay.Designer.cs">
+      <DependentUpon>FormTimerCounterPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems\MI_ShowAbout.cs" />
+    <Compile Include="MenuItems\MI_ShowWebsite.cs" />
+    <Compile Include="MenuItems\MI_ShowWiki.cs" />
+    <Compile Include="MenuItems\Profile\MI_EditProfileDetails.cs" />
+    <Compile Include="MenuItems\Profile\MI_NewProfile.cs" />
+    <Compile Include="MenuItems\Profile\MI_OpenProfile.cs" />
+    <Compile Include="MenuItems\Profile\MI_RecentProfiles.cs" />
+    <Compile Include="MenuItems\Profile\MI_SaveProfile.cs" />
+    <Compile Include="MenuItems\Profile\MI_SaveProfileAs.cs" />
+    <Compile Include="MenuItems\Roots\MI_Profiles.cs" />
+    <Compile Include="MenuItems\Roots\MI_TimerCounterControls.cs" />
+    <Compile Include="MenuItems\Roots\MI_TimerCounters.cs" />
+    <Compile Include="MenuItems\TimerCountersControls\MI_PauseAllTimers.cs" />
+    <Compile Include="MenuItems\TimerCountersControls\MI_PauseTimer.cs" />
+    <Compile Include="MenuItems\TimerCountersControls\MI_ResumeTimerAddDifference.cs" />
+    <Compile Include="MenuItems\TimerCountersControls\MI_StartResumeAllTimers.cs" />
+    <Compile Include="MenuItems\TimerCountersControls\MI_StartResumeTimer.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_AddAlarm.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_BalanceTransation.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_ExortEventsIntoTextFile.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_ExportEventsIntoExcel.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_NewTimerCounter.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_Pay.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_RemoveAlarm.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_RemoveTimerCounter.cs" />
+    <Compile Include="MenuItems\TimersCounters\MI_ResetAlarm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.ar.Designer.cs">
+      <DependentUpon>Resources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="TabControls\TabControl_Alarms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControls\TabControl_ProfileDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControls\TabControl_TimerCounterEvents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControls\TabControl_TimerCounters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControls\TabControl_TimerCounterStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TCLCoreService.cs" />
+    <Compile Include="TCLP\TCLPFile.cs" />
+    <Compile Include="TCLP\TCLPSavingMethod.cs" />
+    <Compile Include="TCLP\Profile.cs" />
+    <Compile Include="TCLP\TimerCounter.cs" />
+    <Compile Include="TCLP\TimerCounterAlarm.cs" />
+    <Compile Include="TCLP\TimerCounterEvent.cs" />
+    <Compile Include="TCLP\TimerCounterEventType.cs" />
+    <Compile Include="Controls\TimeEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeEdit.designer.cs">
+      <DependentUpon>TimeEdit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FormAbout.ar.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddNewTimerCounterAlarm.ar.resx">
+      <DependentUpon>FormAddNewTimerCounterAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddTimerCounter.ar.resx">
+      <DependentUpon>FormAddTimerCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAlarmTrigger.ar.resx">
+      <DependentUpon>FormAlarmTrigger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAlarmTrigger.resx">
+      <DependentUpon>FormAlarmTrigger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddNewTimerCounterAlarm.resx">
+      <DependentUpon>FormAddNewTimerCounterAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBalanceTransaction.ar.resx">
+      <DependentUpon>FormBalanceTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBalanceTransaction.resx">
+      <DependentUpon>FormBalanceTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddTimerCounter.resx">
+      <DependentUpon>FormAddTimerCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditProfileDetails.ar.resx">
+      <DependentUpon>FormEditProfileDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEnterName.ar.resx">
+      <DependentUpon>FormEnterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGettingStarted.ar.resx">
+      <DependentUpon>FormGettingStarted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGettingStarted.resx">
+      <DependentUpon>FormGettingStarted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditProfileDetails.resx">
+      <DependentUpon>FormEditProfileDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEnterName.resx">
+      <DependentUpon>FormEnterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNewProfile.ar.resx">
+      <DependentUpon>FormNewProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNewProfile.resx">
+      <DependentUpon>FormNewProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTimerCounterPay.ar.resx">
+      <DependentUpon>FormTimerCounterPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTimerCounterPay.resx">
+      <DependentUpon>FormTimerCounterPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ar.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TabControls\TabControl_Alarms.ar.resx">
+      <DependentUpon>TabControl_Alarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_Alarms.resx">
+      <DependentUpon>TabControl_Alarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_ProfileDetails.ar.resx">
+      <DependentUpon>TabControl_ProfileDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_ProfileDetails.resx">
+      <DependentUpon>TabControl_ProfileDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounterEvents.ar.resx">
+      <DependentUpon>TabControl_TimerCounterEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounterEvents.resx">
+      <DependentUpon>TabControl_TimerCounterEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounters.ar.resx">
+      <DependentUpon>TabControl_TimerCounters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounters.resx">
+      <DependentUpon>TabControl_TimerCounters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounterStatus.ar.resx">
+      <DependentUpon>TabControl_TimerCounterStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControls\TabControl_TimerCounterStatus.resx">
+      <DependentUpon>TabControl_TimerCounterStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TimeEdit.resx">
+      <DependentUpon>TimeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimerCounterLister.ico" />
+    <Content Include="TimerCounterLister.ico" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\comments_delete.png" />
+    <None Include="Resources\comments_add.png" />
+    <None Include="Resources\comments.png" />
+    <None Include="Resources\comment_edit.png" />
+    <None Include="Resources\comment_delete.png" />
+    <None Include="Resources\comment_add.png" />
+    <None Include="Resources\comment.png" />
+    <None Include="Resources\application_view_list.png" />
+    <None Include="Resources\time_go.png" />
+    <None Include="Resources\time_delete.png" />
+    <None Include="Resources\time_add.png" />
+    <None Include="Resources\time.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\properties.ico" />
+    <None Include="Resources\page_white.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\film_edit.png" />
+    <None Include="Resources\film.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\door_in.png" />
+    <None Include="Resources\control_pause.png" />
+    <None Include="Resources\control_pause_blue.png" />
+    <None Include="Resources\control_play.png" />
+    <None Include="Resources\control_play_blue.png" />
+    <None Include="Resources\control_stop.png" />
+    <None Include="Resources\control_stop_blue.png" />
+    <None Include="Resources\money.png" />
+    <None Include="Resources\money_delete.png" />
+    <None Include="Resources\timeline_marker.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\arrow_rotate_clockwise.png" />
+    <None Include="Resources\page_white_edit.png" />
+    <None Include="Resources\page_white_excel.png" />
+    <Content Include="TCLP\TCLPFileFormat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ManagedUI\Managed-UI\ManagedUI\ManagedUI.csproj">
+      <Project>{19001dfe-e71c-413a-a38a-ad7e0c43b672}</Project>
+      <Name>ManagedUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

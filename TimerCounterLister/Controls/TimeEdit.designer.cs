@@ -1,0 +1,137 @@
+﻿// This file is part of Timer Counter Lister
+// A program that list and manage timers.
+// 
+// Copyright © Alaa Ibrahim Hadid 2021 - 2022
+//
+// This program is free software; you can redistribute it and/or modify 
+// it under the terms of the GNU Lesser General Public License as published 
+// by the Free Software Foundation; either version 3 of the License, 
+// or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful, but 
+// WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+// or FITNESS FOR A PARTICULAR PURPOSE.See the GNU Lesser General Public 
+// License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.If not, see<http://www.gnu.org/licenses/>.
+// 
+// Author email: mailto:alaahadidfreeware@gmail.com
+//
+namespace TimerCounterLister
+{
+    partial class TimeEdit
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.SS_numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.MILI_numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.SS_numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MILI_numericUpDown1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // SS_numericUpDown1
+            // 
+            this.SS_numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SS_numericUpDown1.InterceptArrowKeys = false;
+            this.SS_numericUpDown1.Location = new System.Drawing.Point(0, 0);
+            this.SS_numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SS_numericUpDown1.Maximum = new decimal(new int[] {
+            268435456,
+            1042612833,
+            542101086,
+            0});
+            this.SS_numericUpDown1.Name = "SS_numericUpDown1";
+            this.SS_numericUpDown1.Size = new System.Drawing.Size(369, 26);
+            this.SS_numericUpDown1.TabIndex = 4;
+            this.SS_numericUpDown1.ValueChanged += new System.EventHandler(this.SS_numericUpDown1_ValueChanged);
+            this.SS_numericUpDown1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.SS_numericUpDown1_KeyUp);
+            // 
+            // MILI_numericUpDown1
+            // 
+            this.MILI_numericUpDown1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MILI_numericUpDown1.Increment = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.MILI_numericUpDown1.InterceptArrowKeys = false;
+            this.MILI_numericUpDown1.Location = new System.Drawing.Point(391, 0);
+            this.MILI_numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MILI_numericUpDown1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.MILI_numericUpDown1.Name = "MILI_numericUpDown1";
+            this.MILI_numericUpDown1.Size = new System.Drawing.Size(57, 26);
+            this.MILI_numericUpDown1.TabIndex = 6;
+            this.MILI_numericUpDown1.Value = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.MILI_numericUpDown1.ValueChanged += new System.EventHandler(this.MILI_numericUpDown1_ValueChanged);
+            this.MILI_numericUpDown1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MILI_numericUpDown1_KeyUp);
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(369, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 31);
+            this.label3.TabIndex = 8;
+            this.label3.Text = ".";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // TimeEdit
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.SS_numericUpDown1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.MILI_numericUpDown1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "TimeEdit";
+            this.Size = new System.Drawing.Size(448, 31);
+            ((System.ComponentModel.ISupportInitialize)(this.SS_numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MILI_numericUpDown1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.NumericUpDown SS_numericUpDown1;
+        private System.Windows.Forms.NumericUpDown MILI_numericUpDown1;
+        private System.Windows.Forms.Label label3;
+    }
+}

@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_CannotTimerCounteralarmAddIncorrectPassword" xml:space="preserve">
+    <value>Cannot add Timer Counter Alarm: incorrect password.</value>
+  </data>
+  <data name="CMI_Name_PauseAllTimerCounters" xml:space="preserve">
+    <value>Pause all Timer Counters</value>
+  </data>
+  <data name="Error_CannotOpenProfileIncorrectPassword" xml:space="preserve">
+    <value>Cannot open profile: incorrect password entered !!</value>
+  </data>
+  <data name="Filter_Text" xml:space="preserve">
+    <value>Text File (*.txt)|*.txt</value>
+  </data>
+  <data name="TimerEvent_AlarmAdd" xml:space="preserve">
+    <value>Alarm Add</value>
+  </data>
+  <data name="Status_StartingNewProfile" xml:space="preserve">
+    <value>Starting new profile</value>
+  </data>
+  <data name="TimerEventDesc_TimerResume" xml:space="preserve">
+    <value>Timer resumed after a pause</value>
+  </data>
+  <data name="TimerEvent_AlarmRemove" xml:space="preserve">
+    <value>Alarm Remove</value>
+  </data>
+  <data name="Message_SelectedTimerCounterAlreadyRunning" xml:space="preserve">
+    <value>Selected Timer Counter is already running !!</value>
+  </data>
+  <data name="Error_InomplatibleTCLFileVersion" xml:space="preserve">
+    <value>Incompatible Timer Counter Lister file version</value>
+  </data>
+  <data name="MessageCaption_SaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="TimerEvent_Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="CMI_Name_AddTimerCounterAlarm" xml:space="preserve">
+    <value>Add New Timer Counter Alarm</value>
+  </data>
+  <data name="CMI_Name_EditProfileDetails" xml:space="preserve">
+    <value>&amp;Edit Profile Details</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="page_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comments_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerPauseBecauseOfTimer" xml:space="preserve">
+    <value>Timer Counter paused because of alarm trigger (that alarm is set to pause the Timer Counter on trigger)</value>
+  </data>
+  <data name="application_view_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_view_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterProfilePathFirst" xml:space="preserve">
+    <value>Please enter (or set) profile file path first.</value>
+  </data>
+  <data name="CMI_Tooltip_TimerCounterPay" xml:space="preserve">
+    <value>Berform a pay operation to sort out cost so far to selected Timer Counter.</value>
+  </data>
+  <data name="Status_NewProfileStartedSuccessfully" xml:space="preserve">
+    <value>New profile started successfully.</value>
+  </data>
+  <data name="TimerEvent_TimerPause" xml:space="preserve">
+    <value>Timer Pause</value>
+  </data>
+  <data name="Error_SavingMethodSetToNone" xml:space="preserve">
+    <value>Saving method is set to none.</value>
+  </data>
+  <data name="TC_Name_TimerCounters" xml:space="preserve">
+    <value>Timer Counters</value>
+  </data>
+  <data name="page_white_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_TimerCounterBalanceTransaction" xml:space="preserve">
+    <value>Perform a Balance Transaction such as Withdraw from Balance or Add to Balance.</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_FileSizeIsLessThanExpected" xml:space="preserve">
+    <value>File size is less than expected</value>
+  </data>
+  <data name="Word_CopyrightMessage" xml:space="preserve">
+    <value>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</value>
+  </data>
+  <data name="CMI_Name_ResetTimerCounterAlarm" xml:space="preserve">
+    <value>Reset Selected Timer Counter Alarm</value>
+  </data>
+  <data name="Title_EnterProfilePassword" xml:space="preserve">
+    <value>Please Enter Profile Password</value>
+  </data>
+  <data name="arrow_rotate_clockwise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_rotate_clockwise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_AlarmRemove" xml:space="preserve">
+    <value>Alarm removed</value>
+  </data>
+  <data name="CMI_Name_ResumeTimerCounterWithDifference" xml:space="preserve">
+    <value>Resume Selected Timer Counter Add Passed Time</value>
+  </data>
+  <data name="timeline_marker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timeline_marker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_PauseTimerCounter" xml:space="preserve">
+    <value>Pause Timer Counter</value>
+  </data>
+  <data name="MIR_Name_TimerCounterControls" xml:space="preserve">
+    <value>Timer Counter Cont&amp;rols</value>
+  </data>
+  <data name="Error_CannotRemoveSelectedTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>Cannot remove selected Timer Counter: incorrect password.</value>
+  </data>
+  <data name="Message_PasswordHasBeenChangedSuccessfully" xml:space="preserve">
+    <value>Password has been changed successfully.</value>
+  </data>
+  <data name="TimerEvent_AlarmReset" xml:space="preserve">
+    <value>Alarm Reset</value>
+  </data>
+  <data name="Error_CannotOpenProfilePathIsEmpty" xml:space="preserve">
+    <value>Cannot open profile: path is null or empty.</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="film_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_PerMinute" xml:space="preserve">
+    <value>Per Minute</value>
+  </data>
+  <data name="Error_CannotAddNewTimerIncorrectPassword" xml:space="preserve">
+    <value>Cannot add new Timer Counter: incorrect profile password.</value>
+  </data>
+  <data name="CMI_Tooltip_OpenProfile" xml:space="preserve">
+    <value>Open profile from file. This will ask to confirm saving changes first.</value>
+  </data>
+  <data name="TimerEventDesc_AlarmReset" xml:space="preserve">
+    <value>Alarm reset</value>
+  </data>
+  <data name="Message_AlarmTrigger" xml:space="preserve">
+    <value>ALARM TRIGGER !!</value>
+  </data>
+  <data name="Message_CannotCloseAppProfileNotSaved" xml:space="preserve">
+    <value>Cannot close the application, profile is not saved.</value>
+  </data>
+  <data name="Status_CannotExecuteCommandNewProfile0" xml:space="preserve">
+    <value>Cannot execute command "new profile": current profile changes aren't saved.</value>
+  </data>
+  <data name="Error_UnableToOpenProfileFile" xml:space="preserve">
+    <value>Unable to open profile file</value>
+  </data>
+  <data name="Message_CannotResumeWithAddNotAllowed" xml:space="preserve">
+    <value>This feature cannot be used with this Timer Counter (Resume Timer Counter With Difference Add is not allowed).</value>
+  </data>
+  <data name="CMI_Name_ExportTimerCounterEventsText" xml:space="preserve">
+    <value>Export Timer Counter Events Into Text File</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterAlarmTime" xml:space="preserve">
+    <value>Please enter the Timer Counter Alarm time (it must be larger than zero).</value>
+  </data>
+  <data name="Word_AlaaIbrahimHadid" xml:space="preserve">
+    <value>Alaa Ibrahim Hadid</value>
+  </data>
+  <data name="table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_RemoveSelectedTimerCounter" xml:space="preserve">
+    <value>Remove selected Timer Counter from the list. This cannot be UNDONE, also, all timer details will be removed, but still, profile will not be saved.</value>
+  </data>
+  <data name="Error_OpenProfileCanceled" xml:space="preserve">
+    <value>Cannot open profile: open profile has been canceled.</value>
+  </data>
+  <data name="Title_PleaseEnterNEWPassword" xml:space="preserve">
+    <value>Please Enter NEW Password</value>
+  </data>
+  <data name="MessageCaption_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Word_Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="Error_InomplatibleTCLProfileVersion" xml:space="preserve">
+    <value>Incompatible Timer Counter Lister profile version</value>
+  </data>
+  <data name="MIR_Name_TimerCounters" xml:space="preserve">
+    <value>Timer &amp;Conuters</value>
+  </data>
+  <data name="TimerEvent_TimerResume" xml:space="preserve">
+    <value>Timer Resume</value>
+  </data>
+  <data name="CMI_Name_SaveProfileAs" xml:space="preserve">
+    <value>Save Profile As</value>
+  </data>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_SaveProfile" xml:space="preserve">
+    <value>&amp;Save Profile Changes</value>
+  </data>
+  <data name="TimerEvent_TimerAdd" xml:space="preserve">
+    <value>Timer Add</value>
+  </data>
+  <data name="TimerEventDesc_TimerStart" xml:space="preserve">
+    <value>Timer started</value>
+  </data>
+  <data name="Error_CannotTimerCounterAlarmRemoveIncorrectPassword" xml:space="preserve">
+    <value>Cannot remove Timer Counter Alarm: incorrect password !!</value>
+  </data>
+  <data name="CMI_Tooltip_StartResumeTimerCounter" xml:space="preserve">
+    <value>Start/Resume selected Timer Counter. This will ask for a password if the profile is protected by one.</value>
+  </data>
+  <data name="CMI_Name_StartResumeAllTimerCounters" xml:space="preserve">
+    <value>Start/Resume all Timer Counters</value>
+  </data>
+  <data name="comment_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMI_Name_RecentProfiles" xml:space="preserve">
+    <value>&amp;Recent Profiles</value>
+  </data>
+  <data name="CMI_Tooltip_RemoveTimerCounterAlarm" xml:space="preserve">
+    <value>Remove selected Timer Counter Alarm from selected Timer Counter.</value>
+  </data>
+  <data name="MessageCaption_AddTimerCounterAlarm" xml:space="preserve">
+    <value>Add New Timer Counter Alarm</value>
+  </data>
+  <data name="Error_UnableToSaveProfile" xml:space="preserve">
+    <value>Unable to save profile</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="CMI_Name_NewTimerCounter" xml:space="preserve">
+    <value>New &amp;Timer Counter</value>
+  </data>
+  <data name="Message_CannotRemoveAlarmPleaseSelectAlarm" xml:space="preserve">
+    <value>Cannot remove Timer Counter Alarm: please select the Alarm to remove first !!</value>
+  </data>
+  <data name="Message_TimerCounterNeedToBePausedFirst" xml:space="preserve">
+    <value>Selected Timer Counter need to be paused first !!</value>
+  </data>
+  <data name="Word_CostAfterEvent" xml:space="preserve">
+    <value>Cost After Event</value>
+  </data>
+  <data name="Message_CannotCloseAppTimersStillRunning" xml:space="preserve">
+    <value>There is a Timer Counter or more still running. Application cannot closed until these timers are halted or paused.</value>
+  </data>
+  <data name="CMI_Tooltip_SaveProfileAs" xml:space="preserve">
+    <value>Save current profile into a file and set that file as current.</value>
+  </data>
+  <data name="CMI_Name_StartResumeTimerCounter" xml:space="preserve">
+    <value>Start/Resume Selected Timer Counter</value>
+  </data>
+  <data name="Word_Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="TC_Name_ProfileDetails" xml:space="preserve">
+    <value>Profile Details</value>
+  </data>
+  <data name="Message_AreYouSureToRemoveTimerCounter" xml:space="preserve">
+    <value>Are you sure you want to remove selected Timer Counter ? THIS CAN NOT BE UNDONE.</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterNameFirst" xml:space="preserve">
+    <value>Please enter timer counter name first.</value>
+  </data>
+  <data name="Error_CannotEditProfileDetailsIncorrectPassword" xml:space="preserve">
+    <value>Cannot edit profile details, incorrect password.</value>
+  </data>
+  <data name="comments_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerDesc" xml:space="preserve">
+    <value>Alarm added to trigger after</value>
+  </data>
+  <data name="CMI_Name_NewProfile" xml:space="preserve">
+    <value>&amp;New Profile</value>
+  </data>
+  <data name="Title_PleaseEnterCURRENTPassword" xml:space="preserve">
+    <value>Please Enter CURRENT Password</value>
+  </data>
+  <data name="Word_Alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="CMI_Tooltip_ResumeTimerCounterWithDifference" xml:space="preserve">
+    <value>Resume selected Timer Counter, add the time has passed from last pause.</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="Word_AlarmName" xml:space="preserve">
+    <value>Alarm Name</value>
+  </data>
+  <data name="Status_ProfileSavedSuccessfully" xml:space="preserve">
+    <value>Profile saved successfully.</value>
+  </data>
+  <data name="CMI_Name_TimerCounterBalanceTransaction" xml:space="preserve">
+    <value>Balance Transaction</value>
+  </data>
+  <data name="CMI_Name_RemoveSelectedTimerCounter" xml:space="preserve">
+    <value>&amp;Remove Selected Timer Counter</value>
+  </data>
+  <data name="Word_TimePassed" xml:space="preserve">
+    <value>Time Passed</value>
+  </data>
+  <data name="Status_ProfileOpenedSuccessfully" xml:space="preserve">
+    <value>Profile opened successfully.</value>
+  </data>
+  <data name="CMI_Tooltip_NewProfile" xml:space="preserve">
+    <value>Start new profile which will hold all timers and data related. This will ask to confirm saving changes first.</value>
+  </data>
+  <data name="Title_SaveProfile" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+  <data name="Error_CannotSaveProfileIncorrectPassword" xml:space="preserve">
+    <value>Cannot save profile: profile is protected with a password and incorrect password has been entered.</value>
+  </data>
+  <data name="Message_EnteredNameAlreadyTakenByAnotherTimer" xml:space="preserve">
+    <value>Entered name is already taken by another Timer Counter. Please enter a different name.</value>
+  </data>
+  <data name="Message_TimersNeedToPauseToMakeNewProfile" xml:space="preserve">
+    <value>There is a Timer Counter or more still running. Cannot start new profile until all timer counters of current profile are halted or paused.</value>
+  </data>
+  <data name="Word_Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Error_NewProfileStartCanceled" xml:space="preserve">
+    <value>New profile start has been canceled</value>
+  </data>
+  <data name="money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotTimerCounterPayIncorrectPassword" xml:space="preserve">
+    <value>Cannot do pay operation to Selected Counter: incorrect password.</value>
+  </data>
+  <data name="time_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotDoTimerCounterBalanceTransactionIncorrectPassword" xml:space="preserve">
+    <value>Cannot do Balance Transaction: incorrect password.</value>
+  </data>
+  <data name="TimerEvent_TimerStart" xml:space="preserve">
+    <value>Timer Start</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_RemoveTimerCounterAlarm" xml:space="preserve">
+    <value>Remove Selected Timer Counter Alarm</value>
+  </data>
+  <data name="CMI_Tooltip_ResetTimerCounterAlarm" xml:space="preserve">
+    <value>Reset selected Timer Counter Alarm so it count down again from it's time.</value>
+  </data>
+  <data name="Message_IncorrectPassword" xml:space="preserve">
+    <value>Incorrect password !!</value>
+  </data>
+  <data name="Error_CannotSaveProfileItHasCanceledInternally" xml:space="preserve">
+    <value>Cannot save profile: saving profile has been canceled internally.</value>
+  </data>
+  <data name="Error_CannotAddNewTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>Cannot add new Timer Counter: incorrect password.</value>
+  </data>
+  <data name="Error_FileIsNotTCLFile" xml:space="preserve">
+    <value>File is not Timer Counter Lister file</value>
+  </data>
+  <data name="Message_NoProfileLoaded" xml:space="preserve">
+    <value>No profile is loaded ! please start a new profile or open a saved one.</value>
+  </data>
+  <data name="CMI_Tooltip_ExportTimerCounterEventsText" xml:space="preserve">
+    <value>Export selected Timer Counter Events Into a Text file.</value>
+  </data>
+  <data name="Word_CurrencyAfterEvent" xml:space="preserve">
+    <value>Currency After Event</value>
+  </data>
+  <data name="Word_Triggered" xml:space="preserve">
+    <value>triggered</value>
+  </data>
+  <data name="Message_PleaseEnterProfileNameFirst" xml:space="preserve">
+    <value>Please enter profile name first !!</value>
+  </data>
+  <data name="Title_Untitled" xml:space="preserve">
+    <value>Untitled</value>
+  </data>
+  <data name="comment_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_TimerCounterResumeWithDifference" xml:space="preserve">
+    <value>Timer Resume With Difference Add</value>
+  </data>
+  <data name="comment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_AlarmTrigger" xml:space="preserve">
+    <value>Alarm Trigger</value>
+  </data>
+  <data name="CMI_Tooltip_StartResumeAllTimerCounters" xml:space="preserve">
+    <value>Start or Resume all Timer Counters in the profile.</value>
+  </data>
+  <data name="TC_Name_TimerCounterEvents" xml:space="preserve">
+    <value>Timer Counter Events</value>
+  </data>
+  <data name="TC_Name_Alarms" xml:space="preserve">
+    <value>Timer Counter Alarms</value>
+  </data>
+  <data name="CMI_Tooltip_SaveProfile" xml:space="preserve">
+    <value>Save all profile changes.</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>&amp;Don't Save</value>
+  </data>
+  <data name="Message_CannotCloseAppProfileIsPasswordProtectedWrongPassworf" xml:space="preserve">
+    <value>Cannot close the application, profile is password protected and incorrect password has been entered.</value>
+  </data>
+  <data name="comments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Error_CannotOpenProfilePathNotExist" xml:space="preserve">
+    <value>Cannot open profile: path does not exist.</value>
+  </data>
+  <data name="MessageCaption_RemoveTimerCounter" xml:space="preserve">
+    <value>Remove Selected Timer Counter</value>
+  </data>
+  <data name="Error_CannotPauseTimerCounterIncorrectPassword" xml:space="preserve">
+    <value>Cannot pause selected Timer Counter: incorrect password.</value>
+  </data>
+  <data name="control_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterCurrencyFirst" xml:space="preserve">
+    <value>Please enter currency first.</value>
+  </data>
+  <data name="properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\properties.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerAdd" xml:space="preserve">
+    <value>Timer added into the profile</value>
+  </data>
+  <data name="CMI_Name_TimerCounterPay" xml:space="preserve">
+    <value>Timer Counter &amp;Pay</value>
+  </data>
+  <data name="film" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_BalanceAfterEvent" xml:space="preserve">
+    <value>Balance After Event</value>
+  </data>
+  <data name="control_pause_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_pause_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_OpenProfile" xml:space="preserve">
+    <value>&amp;Open Profile</value>
+  </data>
+  <data name="Error_SaveProfileCanceled" xml:space="preserve">
+    <value>Save profile has been canceled.</value>
+  </data>
+  <data name="TimerDescDesc_ExportEventsIntoExcel" xml:space="preserve">
+    <value>Events are exported into Excel file</value>
+  </data>
+  <data name="door_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Tooltip_EditProfileDetails" xml:space="preserve">
+    <value>Edit current profile details such as name, password and password settings ...etc</value>
+  </data>
+  <data name="TimerEventDesc_TimerPause" xml:space="preserve">
+    <value>Timer paused.</value>
+  </data>
+  <data name="Message_UnableToChangePasswordNotConfimed" xml:space="preserve">
+    <value>Unable to change password, new password doesn't match (not confirmed).</value>
+  </data>
+  <data name="Title_OpenProfile" xml:space="preserve">
+    <value>Open Profile</value>
+  </data>
+  <data name="CMI_Tooltip_PauseTimerCounter" xml:space="preserve">
+    <value>Pause selected Timer Counter. This will ask for a password if the profile is protected by one.</value>
+  </data>
+  <data name="Word_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="MessageCaption_AlarmTrigger" xml:space="preserve">
+    <value>Alarm Trigger</value>
+  </data>
+  <data name="Filter_TCLP" xml:space="preserve">
+    <value>Timer Counter Lister Profile (*.tclp)|*.tclp</value>
+  </data>
+  <data name="CMI_Tooltip_AddTimerCounterAlarm" xml:space="preserve">
+    <value>Add new Timer Counter Alarm into selected Timer Counter.</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProfileFirst" xml:space="preserve">
+    <value>Do you want to save profile changes first ?</value>
+  </data>
+  <data name="TimerEvent_BalanceTransaction" xml:space="preserve">
+    <value>Balance Transaction</value>
+  </data>
+  <data name="time_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEvent_ExportEventsIntoExcel" xml:space="preserve">
+    <value>Timer Counter Events Export Into Excel File</value>
+  </data>
+  <data name="comment_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimerEventDesc_TimerResumeWithDifference" xml:space="preserve">
+    <value>Timer resume with adding the time difference from last pause of</value>
+  </data>
+  <data name="Message_EnteredNameAlreadyTakenByAnotherTimerAlarm" xml:space="preserve">
+    <value>Entered Timer Counter Alarm is arelady taken ba another one. Please enter a different Alarm name.</value>
+  </data>
+  <data name="CMI_Tooltip_PauseAllTimerCounters" xml:space="preserve">
+    <value>Pause all Timer Counters that currently running.</value>
+  </data>
+  <data name="TimerEvent_ExportEventsIntoText" xml:space="preserve">
+    <value>Timer Counter Events Export Into Text File</value>
+  </data>
+  <data name="Message_SelectedTimerCounterAlreadyPaused" xml:space="preserve">
+    <value>Selected Timer Counter is already paused !!</value>
+  </data>
+  <data name="Message_PleaseSelectTimerCounter" xml:space="preserve">
+    <value>Please select the Timer Counter first.</value>
+  </data>
+  <data name="control_play_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="MIR_Name_Profiles" xml:space="preserve">
+    <value>&amp;Profiles</value>
+  </data>
+  <data name="CMI_Tooltip_NewTimerCounter" xml:space="preserve">
+    <value>Add new timer counter to current profile. This will show a dialog allows to enter new counter details.</value>
+  </data>
+  <data name="Error_UnableToOpenProfileUnknownReason" xml:space="preserve">
+    <value>Cannot open profile: unkown error. Please check out files (if any) in the Exceptions folder in "Documents\Timer Counter Lister" folder for more details.</value>
+  </data>
+  <data name="Title_PleaseEnterNEWPasswordAgainToConfirm" xml:space="preserve">
+    <value>Please Enter NEW Password Again To Confirm</value>
+  </data>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterTimerCounterAlarmNameFirst" xml:space="preserve">
+    <value>Please enter the Timer Counter name first.</value>
+  </data>
+  <data name="Message_CannotResetAlarmPleaseSelectAlarm" xml:space="preserve">
+    <value>Cannot reset Timer Counter Alarm: please select a Timer Counter Alarm first.</value>
+  </data>
+  <data name="Word_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="MessageCaption_AddTimerCounter" xml:space="preserve">
+    <value>Add Timer Counter</value>
+  </data>
+  <data name="TC_Name_TimerCounterStatus" xml:space="preserve">
+    <value>Timer Counter Status</value>
+  </data>
+  <data name="Word_AlarmDescription" xml:space="preserve">
+    <value>Alarm Description</value>
+  </data>
+  <data name="Message_NoTimerCounterInProfile" xml:space="preserve">
+    <value>There is no Timer Counter in current profile !!</value>
+  </data>
+  <data name="TimerEventDesc_ExportEventsIntoText" xml:space="preserve">
+    <value>Events are exported into text file</value>
+  </data>
+  <data name="control_stop_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_stop_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="money_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_Milliseconds" xml:space="preserve">
+    <value>milliseconds</value>
+  </data>
+  <data name="pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pencil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_PleaseEnterProfilePasswordFirst" xml:space="preserve">
+    <value>Please enter profile password first, or uncheck "Protect profile with a password".</value>
+  </data>
+  <data name="Word_TimerCounter" xml:space="preserve">
+    <value>Timer Counter</value>
+  </data>
+  <data name="Title_ExportTimerCounterEventsIntoText" xml:space="preserve">
+    <value>Export Timer Counter Events Into Text File</value>
+  </data>
+  <data name="Message_TimersNeedToPauseToOpenProfile" xml:space="preserve">
+    <value>There is a Timer Counter or more still running. Cannot open another profile until all timer counters of current profile are halted or paused.</value>
+  </data>
+  <data name="time_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page_white_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white_excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_ExportTimerCounterEventsExcel" xml:space="preserve">
+    <value>Export Timer Counter Events Into Excel File</value>
+  </data>
+  <data name="CMI_Tooltip_ExportTimerCounterEventsExcel" xml:space="preserve">
+    <value>Export selected Timer Counter Events into Excel file.</value>
+  </data>
+  <data name="Balance_Details0" xml:space="preserve">
+    <value>withdraw from balance</value>
+  </data>
+  <data name="Balance_Details1" xml:space="preserve">
+    <value>total remains in balance.</value>
+  </data>
+  <data name="Balance_Details2" xml:space="preserve">
+    <value>added to the balance</value>
+  </data>
+  <data name="Balance_Details3" xml:space="preserve">
+    <value>is the new balance.</value>
+  </data>
+  <data name="Balance_Details4" xml:space="preserve">
+    <value>No transaction detected in for the balance.</value>
+  </data>
+  <data name="Pay_Details0" xml:space="preserve">
+    <value>payed from balance</value>
+  </data>
+  <data name="Pay_Details1" xml:space="preserve">
+    <value>total payed using entering amount</value>
+  </data>
+  <data name="Word_DateOfEvent" xml:space="preserve">
+    <value>Date Of Event</value>
+  </data>
+  <data name="Word_EventDescription" xml:space="preserve">
+    <value>Event Description</value>
+  </data>
+  <data name="Word_EventName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="Word_Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="Word_AboutDetails" xml:space="preserve">
+    <value>Timer Counter Lister
+A program that list and manage timers.
+
+Copyright © Alaa Ibrahim Hadid 2021 - 2022
+
+This program is built using ManagedUi, An advanced managed enviroment for C# desktop applications.
+Please see &lt;https://github.com/alaahadid/Managed-UI&gt; for more details.
+
+Copying:
+-------
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see&lt;http://www.gnu.org/licenses/&gt;.
+
+Author email: mailto:alaahadidfreeware@gmail.com
+
+Timer Counter Lister uses ClosedXML, ClosedXML is licensed under the MIT license
+
+MIT License
+
+Copyright (c) 2016 ClosedXML
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+</value>
+  </data>
+  <data name="Word_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Word_WrittenBy" xml:space="preserve">
+    <value>Author, developer and programmer</value>
+  </data>
+  <data name="CMI_Name_ShowAbout" xml:space="preserve">
+    <value>&amp;About Timer Counter Lister</value>
+  </data>
+  <data name="CMI_Tooltip_ShowAbout" xml:space="preserve">
+    <value>Open about box with details about the program.</value>
+  </data>
+  <data name="TimerCounterLister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimerCounterLister.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMI_Name_ShowWebsite" xml:space="preserve">
+    <value>Website (github)</value>
+  </data>
+  <data name="CMI_Name_ShowWiki" xml:space="preserve">
+    <value>Wiki (online help)</value>
+  </data>
+  <data name="CMI_Tooltip_ShowWebsite" xml:space="preserve">
+    <value>Go to program's repository: https://github.com/alaahadid/Timer-Counter-Lister/</value>
+  </data>
+  <data name="CMI_Tooltip_ShowWiki" xml:space="preserve">
+    <value>Go to program's wiki page for latest help: https://github.com/alaahadid/Timer-Counter-Lister/wiki</value>
+  </data>
+  <data name="Word_ClockRate" xml:space="preserve">
+    <value>Timer Interval (Clock Rate)</value>
+  </data>
+  <data name="CMI_Name_Donate" xml:space="preserve">
+    <value>&amp;Donate</value>
+  </data>
+  <data name="CMI_Tooltip_Donate" xml:space="preserve">
+    <value>Donation now can be done using PayPal - The safer, easier way to pay online!</value>
+  </data>
+</root>

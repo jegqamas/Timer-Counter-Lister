@@ -1,0 +1,88 @@
+﻿// This file is part of Timer Counter Lister
+// A program that list and manage timers.
+// 
+// Copyright © Alaa Ibrahim Hadid 2021 - 2022
+//
+// This program is free software; you can redistribute it and/or modify 
+// it under the terms of the GNU Lesser General Public License as published 
+// by the Free Software Foundation; either version 3 of the License, 
+// or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful, but 
+// WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+// or FITNESS FOR A PARTICULAR PURPOSE.See the GNU Lesser General Public 
+// License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.If not, see<http://www.gnu.org/licenses/>.
+// 
+// Author email: mailto:alaahadidfreeware@gmail.com
+//
+
+
+Structure:
+----------
+The Timer Counter Lister Profile file layout is like this:
+
+12 Bytes profile header.
+xx Bytes the actual project data.
+12 Bytes sub-header.
+xx Bytes the sub-header data.
+.....
+
+Reading the first 12 header bytes will determine the profile saving method and parameters used.
+
+.The 12 Bytes header structure:
+
++--------------+--------------+-----------------------------------------------------------------------+
+| Bytes count  | Type         | Description                                                           |
++--------------+--------------+-----------------------------------------------------------------------+
+| 4 Bytes      | ASCI String  | "TCLP" string text, must be existed in the first 4 bytes of the file, | 
+|              |              | otherwise this file will not recognized as TCL Profile.               |
++--------------+--------------+-----------------------------------------------------------------------+
+| 1 Byte       | Int          | The Timer Counter Lister Profile file format version.                 | 
++--------------+--------------+-----------------------------------------------------------------------+
+| 1 Byte       | Int          | The Timer Counter Lister Profile version.                             | 
++--------------+--------------+-----------------------------------------------------------------------+
+| 1 Byte       | Int          | Parameters # 1, see below ....                                        | 
++--------------+--------------+-----------------------------------------------------------------------+
+| 1 Byte       | Int          | Parameters # 2, see below ....                                        | 
++--------------+--------------+-----------------------------------------------------------------------+
+| 4 Bytes      | Int          | 32 Bit integer, the profile data size in bytes.                       | 
++--------------+--------------+-----------------------------------------------------------------------+
+. The first 4 bytes MUST BE ASCI STRING: "TCLP" without quotes.
+
+. The file version is simply the format file (which the project data saved at) version, from 0 to 255.
+
+. The profile version is simply the profile itself version, from 0 to 255 as well.
+
+.Parameters # 1:
+
+The parameters are simply arranged in one-MSB-byte, each bit mean something (0 below means the bit is 
+reserved for future use):
+7654 3210
+000Z SSSS
+
+- SSSS: 4 bits for saving method id (from 0 to 15):
+  The saving method id is simply a number, from 0 to 15. Each number represent saving method.
+
+  SFP VERSION 1 SAVING METHODS:
+
+  -------+---------------+
+   ID    | Saving method |
+  -------+---------------+
+  00     | None          |
+  01     | Serialize     |
+  -------+---------------+
+
+  When the saving method id is 0 or not listed, simply the profile will be considered corrupted.
+
+- Z: If set, the profile data is compressed using Zip compression method.
+
+.Parameters # 2: reserved for future use.
+
+.Profile data size is 4 - MSB - Bytes, represents the profile data size after the header and without the
+header.
+
+.Sub - header:
+The sub header means the profile file can contain other data than the profile itself.

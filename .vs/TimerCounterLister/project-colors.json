@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "81064fc1-5c1e-4491-96c9-657d544eab7e": {
+      "ProjectGuid": "81064fc1-5c1e-4491-96c9-657d544eab7e",
+      "DisplayName": "TimerCounterLister",
+      "ColorIndex": 0
+    },
+    "19001dfe-e71c-413a-a38a-ad7e0c43b672": {
+      "ProjectGuid": "19001dfe-e71c-413a-a38a-ad7e0c43b672",
+      "DisplayName": "ManagedUI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
