@@ -218,6 +218,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAddNewTimerCounterAlarm.ar.resx">
       <DependentUpon>FormAddNewTimerCounterAlarm.cs</DependentUpon>
@@ -374,7 +375,7 @@
     <Content Include="TCLP\TCLPFileFormat.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ManagedUI\Managed-UI\ManagedUI\ManagedUI.csproj">
+    <ProjectReference Include="..\..\..\..\ManagedUI\Managed-UI\Managed-UI\ManagedUI\ManagedUI.csproj">
       <Project>{19001dfe-e71c-413a-a38a-ad7e0c43b672}</Project>
       <Name>ManagedUI</Name>
     </ProjectReference>

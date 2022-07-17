@@ -46,7 +46,7 @@ namespace TimerCounterLister
             responses = new object[0];
             try
             {
-                Process.Start("https://github.com/alaahadid/Timer-Counter-Lister/wiki");
+                Process.Start("https://github.com/jegqamas/Timer-Counter-Lister/wiki");
             }
             catch { }
         }

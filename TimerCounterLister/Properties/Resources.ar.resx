@@ -768,7 +768,7 @@
 
 جميع الحقوق محفوظة © علاء ابراهيم حديد 2021
 
-هذا البرنامج مبني باستخدام مكتبة ManagedUI, الرجاء متابعة &lt;https://github.com/alaahadid/Managed-UI&gt; للمزيد من التفاصيل.
+هذا البرنامج مبني باستخدام مكتبة ManagedUI, الرجاء متابعة &lt;https://github.com/jegqamas/Managed-UI&gt; للمزيد من التفاصيل.
 
 النسخ:
 -------
@@ -827,10 +827,10 @@ SOFTWARE.</value>
     <value>مساعدة اونلاين ويكي</value>
   </data>
   <data name="CMI_Tooltip_ShowWebsite" xml:space="preserve">
-    <value>الذهاب الى موقع البرنامج على الانترنت: https://github.com/alaahadid/Timer-Counter-Lister/</value>
+    <value>الذهاب الى موقع البرنامج على الانترنت: https://github.com/jegqamas/Timer-Counter-Lister/</value>
   </data>
   <data name="CMI_Tooltip_ShowWiki" xml:space="preserve">
-    <value>الذهاب الى صفحة الويكي للاطلاع على اخر معلومات المساعدة المتعلقة بالبرنامج: https://github.com/alaahadid/Timer-Counter-Lister/wiki</value>
+    <value>الذهاب الى صفحة الويكي للاطلاع على اخر معلومات المساعدة المتعلقة بالبرنامج: https://github.com/jegqamas/Timer-Counter-Lister/wiki</value>
   </data>
   <data name="Word_ClockRate" xml:space="preserve">
     <value>الفاصل الزمني للمؤقت</value>

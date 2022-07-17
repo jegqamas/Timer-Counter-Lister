@@ -523,7 +523,7 @@ namespace TimerCounterLister.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Go to program&apos;s repository: https://github.com/alaahadid/Timer-Counter-Lister/.
+        ///   Looks up a localized string similar to Go to program&apos;s repository: https://github.com/jegqamas/Timer-Counter-Lister/.
         /// </summary>
         internal static string CMI_Tooltip_ShowWebsite {
             get {
@@ -532,7 +532,7 @@ namespace TimerCounterLister.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Go to program&apos;s wiki page for latest help: https://github.com/alaahadid/Timer-Counter-Lister/wiki.
+        ///   Looks up a localized string similar to Go to program&apos;s wiki page for latest help: https://github.com/jegqamas/Timer-Counter-Lister/wiki.
         /// </summary>
         internal static string CMI_Tooltip_ShowWiki {
             get {
@@ -1903,11 +1903,11 @@ namespace TimerCounterLister.Properties {
         ///Copyright © Alaa Ibrahim Hadid 2021 - 2022
         ///
         ///This program is built using ManagedUi, An advanced managed enviroment for C# desktop applications.
-        ///Please see &lt;https://github.com/alaahadid/Managed-UI&gt; for more details.
+        ///Please see &lt;https://github.com/jegqamas/Managed-UI&gt; for more details.
         ///
         ///Copying:
         ///-------
-        ///This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 3 of the License, o [rest of string was truncated]&quot;;.
+        ///This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 3 of the License, or [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Word_AboutDetails {
             get {

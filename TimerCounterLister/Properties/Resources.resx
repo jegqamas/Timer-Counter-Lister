@@ -774,7 +774,7 @@ A program that list and manage timers.
 Copyright © Alaa Ibrahim Hadid 2021 - 2022
 
 This program is built using ManagedUi, An advanced managed enviroment for C# desktop applications.
-Please see &lt;https://github.com/alaahadid/Managed-UI&gt; for more details.
+Please see &lt;https://github.com/jegqamas/Managed-UI&gt; for more details.
 
 Copying:
 -------
@@ -834,10 +834,10 @@ SOFTWARE.
     <value>Wiki (online help)</value>
   </data>
   <data name="CMI_Tooltip_ShowWebsite" xml:space="preserve">
-    <value>Go to program's repository: https://github.com/alaahadid/Timer-Counter-Lister/</value>
+    <value>Go to program's repository: https://github.com/jegqamas/Timer-Counter-Lister/</value>
   </data>
   <data name="CMI_Tooltip_ShowWiki" xml:space="preserve">
-    <value>Go to program's wiki page for latest help: https://github.com/alaahadid/Timer-Counter-Lister/wiki</value>
+    <value>Go to program's wiki page for latest help: https://github.com/jegqamas/Timer-Counter-Lister/wiki</value>
   </data>
   <data name="Word_ClockRate" xml:space="preserve">
     <value>Timer Interval (Clock Rate)</value>

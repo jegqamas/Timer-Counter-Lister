@@ -67,7 +67,7 @@ namespace TimerCounterLister
         {
             try
             {
-                System.Diagnostics.Process.Start("https://github.com/alaahadid/Timer-Counter-Lister");
+                System.Diagnostics.Process.Start("https://github.com/jegqamas/Timer-Counter-Lister");
             }
             catch { }
         }

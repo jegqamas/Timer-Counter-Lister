@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerCounterLister", "TimerCounterLister\TimerCounterLister.csproj", "{81064FC1-5C1E-4491-96C9-657D544EAB7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedUI", "..\..\ManagedUI\Managed-UI\ManagedUI\ManagedUI.csproj", "{19001DFE-E71C-413A-A38A-AD7E0C43B672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedUI", "..\..\..\ManagedUI\Managed-UI\Managed-UI\ManagedUI\ManagedUI.csproj", "{19001DFE-E71C-413A-A38A-AD7E0C43B672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
